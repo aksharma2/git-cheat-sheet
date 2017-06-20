@@ -116,7 +116,7 @@ Or all branches _not_ merged:
 Key/Command	Description
 
 
-
+```
 cd	Home directory
 
 cd [folder]	Change directory
@@ -150,7 +150,7 @@ pico [file]	Opens the [file] with pic text editor
 q	Exit
 
 clear	Clear screen
-
+```
 
 
 
@@ -177,7 +177,7 @@ File Management
 Key/Command	Description
 
 
-
+```
 touch [file]	Create new file
 
 pwd	Full path to working directory
@@ -207,7 +207,7 @@ cp [file] [newfile]	Copy file to file
 cp [file] [dir]	Copy file to directory
 
 mv [file] [new filename]	Move/Rename, e.g. mv -v [file] [dir]
-
+```
 
 
 
@@ -217,7 +217,7 @@ Directory Management
 Key/Command	Description
 
 
-
+```
 mkdir [dir]	Create new directory
 
 mkdir -p [dir]/[dir]	Create nested directories
@@ -225,7 +225,7 @@ mkdir -p [dir]/[dir]	Create nested directories
 rmdir [dir]	Remove directory ( only operates on empty directories )
 
 rm -R [dir]	Remove directory and contents
-
+```
 
 
 Help
@@ -234,7 +234,7 @@ Help
 Key/Command	Description
 
 
-
+```
 [command] -h	Offers help
 
 [command] —help	Offers help
@@ -246,7 +246,7 @@ reset	Resets the terminal display
 man [command]	Show the help for ‘command’
 
 whatis [command]	Gives a one-line description of ‘command’
-
+```
 
 
 iTerm 2 Shortcuts
@@ -255,7 +255,7 @@ iTerm 2 Shortcuts
 Key/Command	Description
 
 
-
+```
 Cmd + T	Opens a new terminal tab
 
 Cmd + C	Copy text in terminal
@@ -299,3 +299,4 @@ Alt + F	Move cursor forward one word on the current line
 Alt + B	Move cursor backward one word on the current line
 
 Tab	Auto-complete files and folder names
+```
